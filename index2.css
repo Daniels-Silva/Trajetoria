@@ -1,0 +1,84 @@
+    html{
+            background-color: rgb(97, 97, 97);
+            margin-top: 60px;
+    }
+    .eu{
+            margin: 2rem 3rem 10; /* Adicionei uma margem inferior*/
+            font-family: calibri;
+            color: aliceblue;
+            font-size: 3rem; 
+    }
+    .sobre{
+        
+            font-size: 2rem;
+            margin: 0 5rem; /* margem inferior */
+            font-weight: lighter;
+            color: aliceblue;
+            align-items: left;
+            font-weight: lighter;
+            font-family: Calibri;
+            margin-bottom: 10px; /* ou qualquer outro valor desejado */
+            
+    }
+    .iconelinkedin{
+        width: 70px; /* Defina o tamanho desejado para as imagens */
+        margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
+        margin: 0 5rem;
+
+    }
+    img{
+        
+            height: auto; /* Mantém a proporção original da imagem */
+            display: block; /* Imagens uma sobre a outra */
+            margin-bottom: 3px; /* Adiciona espaço abaixo de cada imagem */
+            margin: 3rem;
+            border-radius: 10%;
+    }
+    .lista-imagens {
+            list-style: none;
+            padding: 0;
+    }
+
+    .lista-imagens li {
+            display: flex; /* Utiliza um layout flexível */
+            align-items: center; /* Alinha os itens verticalmente ao centro */
+            font-family: calibri;
+            font-weight: lighter;
+            color: aliceblue;
+            font-size: 1.3rem;
+
+    }
+
+    .lista-imagens li img {
+            width: 300px; /* Defina o tamanho desejado para as imagens */
+            height: auto;
+            margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
+
+    }
+    h2{
+        margin-top: 5rem; 
+        font-family: calibri;
+        color: aliceblue;
+        font-size: 2rem; 
+    }
+    .copy{
+        font-family: Calibri;
+        font-size: 1.5rem;
+        color: black;
+        margin: 0 5rem;
+    }
+    .contato{
+        margin: 0 5rem; 
+        font-family: calibri;
+        color: aliceblue;
+        font-size: 2rem; 
+        
+
+    }
+    .email{
+        margin: 0 5rem; 
+        font-family: calibri;
+        color: blue;
+        font-size: 1.5rem; 
+
+    }
