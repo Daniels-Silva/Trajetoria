@@ -1,6 +1,6 @@
     html{
             background-color: rgb(97, 97, 97);
-            margin-top: 60px;
+           
     }
     .abas{
         background-color: rgb(97, 97, 97);
@@ -21,7 +21,7 @@
     }
     .sobre{
         
-            font-size: 2rem;
+            font-size: 1rem;
             margin: 0 5rem; /* margem inferior */
             font-weight: lighter;
             color: aliceblue;
