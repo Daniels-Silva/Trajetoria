@@ -3,13 +3,14 @@
             margin-top: 60px;
     }
     .abas{
-        background-color: rgb(177, 235, 2);
+        background-color: rgb(97, 97, 97);
         display: inline-block;
-        color: black;
+        color: rgb(177, 235, 2);;
         border-radius: 5px;
-        margin-top: -50%;
+        border-color: rgb(177, 235, 2);
         display: inline-block;
         cursor: pointer;
+        font-size: 16px;
 
     }
     .eu{
