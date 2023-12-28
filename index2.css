@@ -3,7 +3,9 @@
             margin-top: 60px;
     }
     .abas{
-        background-color: black;
+        background-color: rgb(177, 235, 2);
+        display: inline-block;
+        color: black;
 
     }
     .eu{
