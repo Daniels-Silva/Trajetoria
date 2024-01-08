@@ -5,7 +5,7 @@
     .abas{
         background-color: rgb(97, 97, 97);
         display: inline-block;
-        color: rgb(177, 235, 2);;
+        color: rgb(177, 235, 2);
         border-radius: 5px;
         border-color: rgb(177, 235, 2);
         display: inline-block;
@@ -13,8 +13,13 @@
         font-size: 16px;
 
     }
+    /*Alterar a cor default do link e tirar o sublinhado*/
+    a {
+        color: rgb(177, 235, 2);
+        text-decoration: none; 
+    }
     .eu{
-            margin: 2rem 3rem 10; /* Adicionei uma margem inferior*/
+            margin: 2rem 3rem 10; 
             font-family: calibri;
             color: aliceblue;
             font-size: 2rem; 
