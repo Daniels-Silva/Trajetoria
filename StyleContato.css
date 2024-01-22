@@ -2,3 +2,27 @@ html{
 background-color: rgb(97, 97, 97);
 
 }
+.iconelinkedin{
+    width: 70px; /* Defina o tamanho desejado para as imagens */
+    margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
+    margin: 0 5rem;
+
+}
+.email{
+    margin: 0 5rem; 
+    font-family: calibri;
+    color: blue;
+    font-size: 1.5rem; 
+
+}
+.abas{
+    background-color: rgb(97, 97, 97);
+    display: inline-block;
+    color: rgb(177, 235, 2);
+    border-radius: 5px;
+    border-color: rgb(177, 235, 2);
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+
+}

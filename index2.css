@@ -36,12 +36,7 @@
             margin-bottom: 10px; /* ou qualquer outro valor desejado */
             
     }
-    .iconelinkedin{
-        width: 70px; /* Defina o tamanho desejado para as imagens */
-        margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
-        margin: 0 5rem;
 
-    }
     img{
         
             height: auto; /* Mantém a proporção original da imagem */
@@ -89,12 +84,5 @@
         color: aliceblue;
         font-size: 2rem; 
         
-
-    }
-    .email{
-        margin: 0 5rem; 
-        font-family: calibri;
-        color: blue;
-        font-size: 1.5rem; 
 
     }
