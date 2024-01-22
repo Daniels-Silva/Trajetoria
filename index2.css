@@ -14,7 +14,7 @@
 
     }
     /*Alterar a cor default do link e tirar o sublinhado*/
-    a {
+    .linkAbas{
         color: rgb(177, 235, 2);
         text-decoration: none; 
     }
