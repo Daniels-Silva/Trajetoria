@@ -1,13 +1,10 @@
 html {
     
     background: linear-gradient(to bottom right, #2d2c2c, aliceblue);
+    margin: 0;
+    height: 100%;
 }
-body{
-  
-        margin: 0;
-        height: 100%;
-      
-}
+
 
 .iconelinkedin {
     width: 70px;
