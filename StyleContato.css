@@ -4,11 +4,11 @@ html {
 
 .iconelinkedin {
     width: 70px;
-    margin: 0 50px 0 5rem; /* Adiciona espaço entre a imagem e o texto */
+    margin: 0 30px 0 2rem; /* Adiciona espaço entre a imagem e o texto */
 }
 
 .email {
-    margin: 0 5rem;
+    margin: 0 2rem;
     font-family: calibri;
     color: blue;
     font-size: 1.5rem;
@@ -39,10 +39,11 @@ html {
 }
 
 .digMensagem {
-   border-color: aqua;
+    border-color: aqua;
     width: 50%;
     height: 300px; /* Ajuste o valor conforme necessário */
     resize: vertical;
+
 }
 
 h2{
@@ -53,6 +54,7 @@ h2{
 
 form{
     margin: 30px;
+    background-color: aliceblue;
 
 }
 label{
