@@ -1,19 +1,26 @@
     html{
-            background-color: rgb(97, 97, 97);
+        background: linear-gradient(to bottom right, #2d2c2c, aliceblue);
            
     }
-    .abas{
-        background-color: rgb(97, 97, 97);
-        display: inline-block;
-        color: rgb(177, 235, 2);
-        border-radius: 5px;
-        border-color: rgb(177, 235, 2);
-        display: inline-block;
-        cursor: pointer;
-        font-size: 16px;
 
-    }
-    .linkAbas{
+
+button {
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(97, 97, 97);; /* Cor de fundo */
+        color: #fff; /* Cor do texto */
+        transition: background-color 0.3s ease;
+      }
+    
+button:hover {
+        background-color: #2980b9; /* Cor de fundo ao passar o mouse */
+      }
+
+.linkAbas{
         color: rgb(177, 235, 2);
         text-decoration: none; 
     }
