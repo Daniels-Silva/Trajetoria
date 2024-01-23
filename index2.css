@@ -90,5 +90,13 @@ button:hover {
         color: aliceblue;
         font-size: 2rem; 
         
-
     }
+
+    .img-redimensionada {
+        max-width: 500px; /* Defina o valor desejado para a largura máxima */
+        height: auto; /* Isso garante que a altura seja ajustada proporcionalmente */
+        border-radius: 5px;
+      }
+      .img-container {
+        display: inline-block;
+      }
