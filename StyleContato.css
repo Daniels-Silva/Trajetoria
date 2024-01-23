@@ -1,32 +1,81 @@
-html{
-background-color: rgb(97, 97, 97);
-
+html {
+    background-color: rgb(97, 97, 97);
 }
-.iconelinkedin{
-    width: 70px; /* Defina o tamanho desejado para as imagens */
-    margin-right: 50px; /* Adiciona espaço entre a imagem e o texto */
+
+.iconelinkedin {
+    width: 70px;
+    margin: 0 50px 0 5rem; /* Adiciona espaço entre a imagem e o texto */
+}
+
+.email {
     margin: 0 5rem;
-
-}
-.email{
-    margin: 0 5rem; 
     font-family: calibri;
     color: blue;
-    font-size: 1.5rem; 
-
+    font-size: 1.5rem;
 }
-.abas{
+
+.abas {
     background-color: rgb(97, 97, 97);
     display: inline-block;
     color: rgb(177, 235, 2);
     border-radius: 5px;
     border-color: rgb(177, 235, 2);
-    display: inline-block;
     cursor: pointer;
     font-size: 16px;
+}
+
+.linkAbas {
+    color: rgb(177, 235, 2);
+    text-decoration: none;
+}
+
+.labelMensagem {
+    font-size: 1rem;
+    margin-top: 50px;
+    display: block;
+    color: aliceblue;
+    font-weight: lighter;
+    font-family: Calibri;
+}
+
+.digMensagem {
+   border-color: aqua;
+    width: 50%;
+    height: 300px; /* Ajuste o valor conforme necessário */
+    resize: vertical;
+}
+
+h2{
+    color: aliceblue;   
+    font-family: Calibri;
+       
+}
+
+form{
+    margin: 30px;
 
 }
-  .linkAbas{
-    color: rgb(177, 235, 2);
-    text-decoration: none; 
+label{
+    font-size: 1rem;
+    margin-top: 10px;
+    display: block;
+    color: aliceblue;
+    font-weight: lighter;
+    font-family: Calibri;
+}
+input {
+    width: 350px;
+    height: 25px;
+    border-color: aqua;
+}
+button{
+    display: inline-block;
+    border-radius: 5px;
+    border-color: aqua;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 13px;
+}
+.mensagemEnviada{
+    color: aqua;
 }

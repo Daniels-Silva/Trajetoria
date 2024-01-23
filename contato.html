@@ -1,34 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title> Contato </title>
-        <link rel="stylesheet" href="StyleContato.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="StyleContato.css">
 
-        <!--JS-->
-        <script>
-                
-        </script>
+    <!-- JS -->
+    <script>
+        function enviarMensagem() {
+            // Obter os valores dos campos
+            var nome = document.getElementById('nome').value;
+            var email = document.getElementById('email').value;
+            var mensagem = document.querySelector('.digMensagem').value;
 
-	</head>
-	<body>
-        <button class="abas"><a class="linkAbas" href="index.html">Pagina inicial</a></button>
-        <button class="abas"><a class="linkAbas" href="index2.html">Sobre</a></button>
-     
-        <header>
+            // Exibir mensagem enviada
+            var mensagemEnviada = document.getElementById('mensagemEnviada');
+            mensagemEnviada.innerText = 'Mensagem enviada!';
+            mensagemEnviada.style.color = 'aqua';
 
-        </header>
+            // Limpar os campos
+            document.getElementById('nome').value = '';
+            document.getElementById('email').value = '';
+            document.querySelector('.digMensagem').value = '';
+        }
 
+        //  Manipulador de eventos ao carregar a página
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            document.getElementById('formularioContato').addEventListener('submit', function(event) {
+                event.preventDefault(); // Impede a submissão do formulário
+                enviarMensagem();
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <button class="abas"><a class="linkAbas" href="index.html">Página inicial</a></button>
+        <button class="abas"><a class="linkAbas" href="index2.html">Sobre</a></button><br>
+    </header>
 
-        <label>Mensagem:
-            <textarea></textarea><br>
-        </label>
+    <form id="formularioContato">
+        <h2>Deixe uma Mensagem!</h2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br>
 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email:"><br>
 
+        <label class="labelMensagem">Mensagem: </label><br>
+        <textarea class="digMensagem"></textarea><br>
+
+        <button type="submit">Enviar mensagem</button>
+
+        <p id="mensagemEnviada"></p>
+    </form>
     <a href="https://www.linkedin.com/in/daniel-a-a51706283">
-    <img class="iconelinkedin" src="iconelinkedin.png" alt="icone linkedin">
+        <img class="iconelinkedin" src="iconelinkedin.png" alt="ícone LinkedIn">
     </a>
-        
     <u class="email"><h4 class="email">danielmurielsilva@gmail.com</h4><br></u>
-	</body>
+</body>
 </html>
+
