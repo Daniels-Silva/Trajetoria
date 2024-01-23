@@ -2,6 +2,16 @@ html {
     
     background: linear-gradient(to bottom right, #2d2c2c, aliceblue);
 }
+body{
+    body {
+        margin: 0;
+        font-family:calibri;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+}
 
 .iconelinkedin {
     width: 70px;
